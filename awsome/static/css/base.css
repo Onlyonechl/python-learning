@@ -1,0 +1,35 @@
+
+.navbar-brand{
+    width: 50px;
+    height: 50px;
+    padding-top: 0;
+    padding-left: 0;
+    float: left;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    padding-top: 0;
+}
+
+.nav navbar-nav{
+    float: left;
+    margin-left: 0;
+}
+
+body{
+    background: #f3f3f3;
+
+}
+
+.main{
+    background: #fff;
+    width: 730px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.page-title{
+    text-align: center;
+}

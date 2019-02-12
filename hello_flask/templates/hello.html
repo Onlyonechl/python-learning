@@ -1,0 +1,15 @@
+
+{% extends "master.html" %} 
+#声明这个模板扩展自 master.html 模板#
+
+{% block title %}Hello{% endblock %}
+
+
+
+{% block body %}
+
+Hello {{name}}
+
+<a href="{{ url_for('index') }}"><button>Home</button></a>
+
+{% endblock %}
